@@ -1,0 +1,126 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+input {
+	cursor: pointer;
+}
+.page-index {
+	background: #DCDCDC;
+}
+.form {
+	width: 450px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background: white;
+	padding: 45px;
+	box-shadow: 3px 3px 20px #A9A9A9;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.form__input {
+	padding: 15px;
+	margin-bottom: 15px;
+	outline: 0;
+	font-size: 14px;
+	border: none;
+	background: #f2f2f2;
+}
+.form__link {
+	text-align: center;
+	text-decoration: none;
+  	color: #4169E0;
+}
+.form__link:hover {
+	text-decoration: underline;
+}
+/*...............................................
+						page-profile
+.................................................*/
+.page-profile {
+	background: #DCDCDC;
+}
+.card-profile {
+	width: 660px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 70px 30px;
+	background-color: #fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 3px 3px 14px #A9A9A9;
+}
+.card-profile__title {
+	margin: 0;
+	color: #A9A9A9;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+.card-profile__content {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.user-photo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 15px;
+}
+.user-photo__img {
+	width: 160px;
+	height: 160px;
+	border-radius: 200px;
+	margin-bottom: 15px;
+	border:1px solid #A9A9A9;
+}
+.card-profile__form {
+	width: 50%;
+}
+.form__input--card-profile {
+	width: 100%;
+	background: #fff;
+	border-bottom: 2px solid #A9A9A9;
+}
+.form__input--card-profile:hover {
+	opacity: .7;
+}
+.form__input--card-profile:focus,
+.form__input--card-profile:active {
+	border-bottom: 2px solid black;
+}
+.button {
+	text-transform: uppercase;
+	background: #D3D3D3;
+	color:#696969;
+	padding: 8px 10px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	outline: none;
+}
+.button--blue {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #4169E0;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.button--pl-pr-30 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.button:hover {
+	opacity: .7;
+}
